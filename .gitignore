@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+
+# Downloaded media & partial files
+*.mkv
+*.mp4
+*.webm
+*.part
+*.ytdl
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Misc
+clip_mp4.txt
+clips/
