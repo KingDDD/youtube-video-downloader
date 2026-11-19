@@ -43,7 +43,8 @@ def download_stream(url: str) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Download the best available YouTube replay as an MKV file."
+        description="Download the best available YouTube "
+        "replay as an MKV file."
     )
     parser.add_argument(
         "url",
